@@ -1,1 +1,2 @@
-# 120_assignment
+This SMS application allows users to send text messages through a simple web interface. It starts with a welcome page, guiding users to the SMS feature where they can enter a phone number and message. Upon submission, the backend processes the input using a Django form to ensure validity and sends the SMS via the Twilio API. If successful, a confirmation (SMS ID) is displayed, or an error message appears if something goes wrong. The application is designed with user-friendly templates and clear feedback to ensure a seamless experience from sending messages to confirming delivery.
+
